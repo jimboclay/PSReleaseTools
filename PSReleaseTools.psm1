@@ -1,4 +1,6 @@
 #load functions
+
+#Trivial chnage.
 Get-ChildItem -Path $PSScriptRoot\functions\*.ps1 |
 ForEach-Object {
     . $_.fullname
